@@ -9,19 +9,19 @@ import moment from 'moment-timezone'
 let totalf = Object.values(global.plugins).filter(v => v.help && v.tags).length
 let tags = { 'main': 'Main' }
 const defaultMenu = {
-  before: `┏━━━ ❮❮ 𝙼𝙴𝙽𝚄 ❯❯
-┃⫹⫺ *𝙽𝚊𝚖𝚎:* ${global.author}
-┃⫹⫺ *𝚃𝚘𝚝𝚊𝚕:* ${totalf} + Features
-┃⫹⫺ *𝚅𝚎𝚛𝚜𝚒𝚘𝚗:* V1.4.3
-┃⫹⫺ *𝙿𝚛𝚎𝚏𝚒𝚡:* Multi Prefix 
-┃⫹⫺ *𝙾𝚠𝚗𝚎𝚛:* Shizo The Techie
-┃⫹⫺ *𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖:* 𝙻𝚒𝚗𝚞𝚡
+  before: `┏━━━ ❮❮ 𝐌𝖾𐓣υ ❯❯
+┃ඉᩧ ㅤ🧺ᩙ꤬ *𝐍αꭑ𝖾:* ${global.author}
+┃ඉᩧ ㅤ🧺ᩙ꤬ *𝐓ⱺ𝗍αᥣ:* ${totalf} + 𝐅𝖾α𝗍υ𝗋𝖾𝗌 
+┃ඉᩧ ㅤ🧺ᩙ꤬ *𝐕𝖾𝗋𝗌𝗂ⱺ𐓣:* V1.4.3
+┃ඉᩧ ㅤ🧺ᩙ꤬ *𝐏𝗋𝖾𝖿𝗂𝗑:* 𝐌υᥣ𝗍𝗂 𝐏𝗋𝖾𝖿𝗂𝗑 
+┃ඉᩧ ㅤ🧺ᩙ꤬ *𝐎ω𐓣𝖾𝗋:* 𝐅𝖾ᥣ𝗂𝗑 𝐁ɦα𝗂𝗒α
+┃ඉᩧ ㅤ🧺ᩙ꤬ *𝐏ᥣα𝗍𝖿ⱺ𝗋ꭑ:* 𝐅𝖾ᥣ𝗂𝗑 𝐁ɦα𝗂𝗒α 𝐊α 𝐁α𐓣α𝗒α 𝐇υα 
 ┖─────────┈┈┈〠⸙࿉༐
     %readmore`.trimStart(),
   header: '┏━━━━ ❨ *%category* ❩ ━━┄┈ •⟅ ',
   body: ' ┃✦ %cmd',
   footer: '┗━═┅┅┅┅═━–––––––๑\n',
-  after: `*Made by ♡ ${global.oname}*`,
+  after: `*𝐌αᑯ𝖾 𝐁𝗒  ♡ ${global.oname}*`,
 }
 
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
