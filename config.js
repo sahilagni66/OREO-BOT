@@ -6,34 +6,34 @@ import fs from 'fs'
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '919637987574', process.env.OWNER_NAME || 'Developer Shizo 🤖', true],
-  ['919637987574', 'Shizo Techie ❤️✨', true]
+  [process.env.OWNER_NUMBER || '918127875972', process.env.OWNER_NAME || '𝐅𝖾ᥣ𝗂𝗑 𝐁ɦα𝗂𝗒α  🤖', true],
+  ['994402018313', '𝐅𝖾ᥣ𝗂𝗑 𝐁ɦα𝗂𝗒α  ❤️✨', true]
 ]
 global.mods = []
 global.prems = []
 
-global.author = process.env.OWNER_NAME || 'Shizo The Techie'
-global.botname = process.env.BOT_NAME || 'OREO-BOT'
+global.author = process.env.OWNER_NAME || '𝐅𝖾ᥣ𝗂𝗑 𝐁ɦα𝗂𝗒α'
+global.botname = process.env.BOT_NAME || '𝐅𝖾ᥣ𝗂𝗑'
 global.oname = author
 global.bname = botname
 
 //Extra Shortcuts
-global.smlink = process.env.SOCIAL_MEDIA_LINK || 'https://instagram.com/shizo_the_techie'
-global.gclink = process.env.GROUP_LINK || 'https://chat.whatsapp.com/JnBffMgpiCgBAra3GQC9rW'
+global.smlink = process.env.SOCIAL_MEDIA_LINK || 'https://instagram.com/tf__fardeen'
+global.gclink = process.env.GROUP_LINK || 'https://chat.whatsapp.com/EOojWFPhi2204G7mEFFKXc'
  
 //Apikeys
 global.shizokeys = 'shizo'
 
 //Sticker Watermarks
-global.packname = process.env.BOT_NAME || 'OREO-BOT 🥵'
-global.stkpack = process.env.BOT_NAME || 'OREO-BOT 🥵'
-global.stkowner = process.env.OWNER_NAME || '© Shizo The Techie'
+global.packname = process.env.BOT_NAME || '𝐅𝖾ᥣ𝗂𝗑 🥵'
+global.stkpack = process.env.BOT_NAME || '𝐅𝖾ᥣ𝗂𝗑 🥵'
+global.stkowner = process.env.OWNER_NAME || '© 𝐅𝖾ᥣ𝗂𝗑 𝐁ɦα𝗂𝗒α'
 
 //Watermark
-global.maker = process.env.MAKER || 'Made with ❤️ by OREO-BOT'
+global.maker = process.env.MAKER || '𝐅𝖾ᥣ𝗂𝗑 𝐁ɦα𝗂𝗒α'
 
 //global emojis
-global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*⌛ _Charging..._*\n𝐑υ𝗄 𝐁αɦυ𝗍 𝐒ᥣⱺω 𝐇𝖾𝗂𐓣 𝐒αᑲα𝗋 𝐊α𝗋*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
@@ -45,8 +45,8 @@ global.bug = '*!! Sorry 💢 !!*\nSomething went wrong 🌋'
 global.stop = '*!! 🎭 Unfortunately 💔 !!*\nBot system is not Responding 🙃'
 
 //TimeLines
-global.botdate = `*⫹⫺ Date:*  ${moment.tz('Asia/Kolkata').format('DD/MM/YY')}`
-global.bottime = `*⫹⫺ Time:* ${moment.tz('Asia/Kolkata').format('HH:mm:ss')}`
+global.botdate = `*ඉᩧ ㅤ🧺ᩙ꤬ Date:*  ${moment.tz('Asia/Kolkata').format('DD/MM/YY')}`
+global.bottime = `*ඉᩧ ㅤ🧺ᩙ꤬ Time:* ${moment.tz('Asia/Kolkata').format('HH:mm:ss')}`
 
 //Hosting Management
 global.serverHost = 1
