@@ -2,14 +2,14 @@ let handler = async m =>
   m.reply(
     `
 
-≡  ᴏʀᴇᴏ ᴛʜᴇ ʙɪsᴄᴜɪᴛ ʙᴏᴛ GROUPS
+≡  𝐅𝖾ᥣ𝗂𝗑 𝐁ⱺ𝗍
 
 ─────────────
 ▢ Join public bot group and support
-https://chat.whatsapp.com/LwLQab5mZVW6WWRbBPnDGC
+https://chat.whatsapp.com/EOojWFPhi2204G7mEFFKXc
 
 ▢ Group 2
-https://chat.whatsapp.com/JnBffMgpiCgBAra3GQC9rW
+https://chat.whatsapp.com/EOojWFPhi2204G7mEFFKXc
 
 ─────────────
 ≡ Disabled links? enter here! 
@@ -18,10 +18,10 @@ https://chat.whatsapp.com/JnBffMgpiCgBAra3GQC9rW
  https://chat.whatsapp.com/DWqdPuQ0yFkKyf1SzZ0k9Y
 ─────────────
 ▢ *Owner instagram*
- https://instagram.com/shizo_the_techie
+ https://instagram.com/tf__felix
 
 ▢ *YouTube*
-• https://www.youtube.com/@errormodsyt
+• Chal Be Bsdk Har Jigah Nhi Hu 
 
 
 `.trim()
