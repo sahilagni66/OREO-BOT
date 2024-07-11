@@ -26,7 +26,7 @@ let handler = async (m, { conn }) => {
           key: pingMsg.key,
           type: 14,
           editedMessage: {
-            conversation: `*Faster than you 🚀 :* *${latency} ms*`,
+            conversation: `*Tere Se Fast Hu Bro 🚀 :* *${latency} ms*`,
           },
         },
       },
