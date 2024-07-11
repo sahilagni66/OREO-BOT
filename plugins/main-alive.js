@@ -30,10 +30,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'I AM ALIVE',
-        body: 'OREO BOT',
+        title: '𝚰ꭑ 𝐀ᥣ𝗂𝗏𝖾 𝐂ɦυ𝗍𝗂𝗒𝖾...',
+        body: '𝐅𝖾ᥣ𝗂𝗑 𝐁ⱺ𝗍',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/DWqdPuQ0yFkKyf1SzZ0k9Y',
+        sourceUrl: 'https://chat.whatsapp.com/EOojWFPhi2204G7mEFFKXc',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
