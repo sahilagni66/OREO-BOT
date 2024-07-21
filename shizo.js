@@ -168,7 +168,7 @@ global.prefix = new RegExp(
 )
 
 //Thanks To Gemini Advanced 💗🫶🏻
-global.opts['db'] = process.env.DATABASE_URL || 'mongodb+srv://xeisensei7:DeepakR3442A@xeisensei.1vo3dqm.mongodb.net/?retryWrites=true&w=majority&appName=xeisensei';
+global.opts['db'] = process.env.DATABASE_URL 
 global.db = new Low(
   /https?:\/\//.test(opts['db'] || '')
     ? new CloudDBAdapter(opts['db'])
@@ -368,7 +368,7 @@ async function connectionUpdate(update) {
   if (connection === 'open') {
     const { jid, name } = conn.user
 
-    let msgf = `Hai🤩${name} Congrats you have successfully deployed GURU-BOT\nJoin my support Group for any Query\n https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp`
+    let msgf = `Hai🤩${name} Congrats you have successfully deployed SHIZO-BOT\nJoin my support Group for any Query\nhttps://chat.whatsapp.com/DWqdPuQ0yFkKyf1SzZ0k9Y`
 
     let gmes = conn.sendMessage(
       jid,
